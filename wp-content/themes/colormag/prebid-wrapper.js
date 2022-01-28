@@ -113,6 +113,7 @@ adUnits.forEach(function(entry) {
 pbjs.que.push(function() {
     pbjs.addAdUnits(adUnits);
     pbjs.setConfig({
+        enableSendAllBids: true,
         priceGranularity: "high",
     });
 });
