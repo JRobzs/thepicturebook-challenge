@@ -17,6 +17,49 @@ if ( ! defined( 'ABSPATH' ) ) {
 <html <?php language_attributes(); ?>>
 <head>
 
+	<script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+	<script type="text/javascript"
+		src="https://www.googletagservices.com/tag/js/gpt.js">
+	</script>
+
+	<script type="text/javascript"
+		src="/wp-content/themes/colormag/prebid.js">
+	</script>
+
+	<script type="text/javascript"
+		src="/wp-content/themes/colormag/prebid-wrapper.js">
+	</script>
+
+	<script type="text/javascript"
+		src="/wp-content/themes/colormag/new-load.js">
+	</script>
+
+	<style media="screen">
+	.ad-label{
+		font-size: 11px;
+		color: #aaa;
+		float: left;
+		line-height: 1;
+		margin-top: 4px;
+		position: relative;
+		top: -4px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 100%;
+	}
+
+	.ad-container{
+		margin-bottom: 15px;
+	}
+
+	.desktop-slots{
+		margin: 15px;
+	}
+	</style>
+
 	<?php
 	/**
 	 * Functions hooked into colormag_action_head action.

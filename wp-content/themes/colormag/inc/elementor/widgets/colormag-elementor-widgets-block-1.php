@@ -183,4 +183,3 @@ class ColorMag_Elementor_Widgets_Block_1 extends Colormag_Elementor_Widget_Base 
 	}
 
 }
-

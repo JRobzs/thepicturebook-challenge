@@ -18,6 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+include ('prebid-functions.php');
 /**
  * Define Theme Constants.
  */
@@ -146,4 +147,3 @@ if ( is_admin() ) {
  * Detect plugin. For use on Front End only.
  */
 include_once ABSPATH . 'wp-admin/includes/plugin.php';
-
